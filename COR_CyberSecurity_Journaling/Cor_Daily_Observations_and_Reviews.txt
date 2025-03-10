@@ -46,3 +46,42 @@ Day 5 - 2025-03-07
 Asynchromatic Cyber Wars
 
 Tips for doing well on an interview (soft skills).
+
+Day 6 - 2025-03-10
+--------------------------
+<!--Will update note formats soon -->
+
+Computer Software 
+-System:
+--Operating Systems: 
+
+---Microsoft 
+----8.1, 10, 11
+----2012, 2016, 2019, 2022, Azure
+
+---Apple
+----MacOS, iOS
+
+---Linux
+----Debian
+-----Ubuntu
+
+----Redhat
+-----Centos, Fedora
+
+
+
+
+-Application:
+Web Browser - Safari, Chrome, Google, 
+Office/Libre
+AI
+MS Link
+Team
+Final Cut Pro
+Solitaire
+
+Servers:
+Server Types: Stand-alone, Rack-mounted, Blade
+
+Stopped before Virtualization Slide
