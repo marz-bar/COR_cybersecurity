@@ -111,3 +111,8 @@ Day 8 - 2025-03-12
 Professional Development Day 1 - Ron Cofield / Paul Farley
 
 rcofield@cityofrefugeatl.org
+
+
+Day 9 - 2025-03-13
+--------------------------
+An Overview of Ubuntu's Basic Functions, Terminal Commands, and an In-Depth Review of Key Commands.
