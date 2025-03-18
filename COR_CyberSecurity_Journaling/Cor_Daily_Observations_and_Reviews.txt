@@ -116,3 +116,57 @@ rcofield@cityofrefugeatl.org
 Day 9 - 2025-03-13
 --------------------------
 An Overview of Ubuntu's Basic Functions, Terminal Commands, and an In-Depth Review of Key Commands.
+
+
+Day 10 - 2025-03-14
+--------------------------
+An overview of File Management Systems
+
+Day 11 - 2025-03-17
+--------------------------
+Q1: 
+
+User Management Systems|
+--Standard User
+"cor1"
+"bigdee"
+
+--Service users
+---Server
+----Web:
+*Apache
+*Nginx
+
+----Email:
+*Outlook/Exchange
+*Thunderbird
+*SendMail
+
+----Database:
+*msSQL
+*NoSQL
+*mySQL
+*Oracle
+
+----File:
+*MS Windows 2019
+*Ubuntu Server
+*RedHat Linux Server
+
+Q2: **root user account is created by default; UID of 0** 
+
+Q3: If I create a user called cor1, what group are they part of? cor1
+
+passwd = contains user information
+shadow = contains passwords information
+
+3 types of cryptographic algorithms
+-------------------------------------
+hash function(#) - cryptographic hash
+
+
+
+Symmetric Key (0th)
+
+
+Asymmetric Key(0th 0th)
