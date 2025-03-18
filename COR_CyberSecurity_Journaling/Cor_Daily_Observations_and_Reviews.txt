@@ -124,7 +124,14 @@ An overview of File Management Systems
 
 Day 11 - 2025-03-17
 --------------------------
-Q1: 
+IAM - Identity Access Management
+
+Identity - Making a claim of who I am
+Authentication - Proving who you are -- Something you know, Who you are, Something you have, Something you do, Where you are
+Authorization - Granting Rights and Permissions
+Accounting - Logging and auditing
+
+
 
 User Management Systems|
 --Standard User
@@ -170,3 +177,25 @@ Symmetric Key (0th)
 
 
 Asymmetric Key(0th 0th)
+
+
+
+Day 12 - 2025-03-18
+--------------------------
+**Principle of least priviledge**
+
+**User Permissions**
+Ownership is based on three types
+*user ex: mjackson
+*group ex: mjackson
+*other ex: everyone else
+
+When you create a file or directory by default linux assigns a user owner, group owner, and other owner
+
+Permissions defines what can be done to a file or directory.
+
+CHMOD - Changes permissions on file or folder.
+umask - 002 (default setting)
+
+Special Permissions - Sticky Bit
+protects files, stops the user from deleting the files. Represented by the letter t.
