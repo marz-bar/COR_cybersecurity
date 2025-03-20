@@ -199,3 +199,12 @@ umask - 002 (default setting)
 
 Special Permissions - Sticky Bit
 protects files, stops the user from deleting the files. Represented by the letter t.
+
+
+Day 13 - 2025-03-19
+--------------------------
+Guest Speak - Don Howard 
+
+We learned about Enneagrams and our types. 
+Don provided insight into his journey in Cyber Security.
+Working on your elevator pitch. 
