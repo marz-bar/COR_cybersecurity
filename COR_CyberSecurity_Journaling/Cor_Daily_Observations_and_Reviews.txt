@@ -183,6 +183,7 @@ Asymmetric Key(0th 0th)
 Day 12 - 2025-03-18
 --------------------------
 **Principle of least priviledge**
+-As much permission as necessary to complete a task
 
 **User Permissions**
 Ownership is based on three types
@@ -193,7 +194,7 @@ Ownership is based on three types
 When you create a file or directory by default linux assigns a user owner, group owner, and other owner
 
 Permissions defines what can be done to a file or directory.
-
+CHOWN - Checks or changes user
 CHMOD - Changes permissions on file or folder.
 umask - 002 (default setting)
 
@@ -219,3 +220,35 @@ Compiled code - binary non human language that isn't human readable
 
 RHL(Red Hat Linux): RPM, YUM, DNF
 Debian - dpkg, apt 
+
+
+Day 15 - 2025-03-21
+--------------------------
+**Review**
+Why would you NOT need to use source code?
+-Make changes/modifications
+-Some distros are not pre-compiled
+-curiosity 
+
+Source Code --> Human Readable text
+Pre-compiled --> Ready to go binary
+
+wget(retrieves from a source code URL - webserver)
+curl(retrieves and sends from/to a source code URL - any server such as database server)
+
+Process - Instance of something running
+Thread - sub-process of processing
+
+Processing and Sub-Threads
+PB Sandwich Example - 
+
+*Process State - processes exist in multiple states
+Process states - R running, S sleep, T stop, Z zombie(abandoned child)
+
+In Linux, a process can spawn children.
+
+All processes are started by a single process called Systemd(old name is called Init) 
+
+TOP 
+PS -e (shows all process)
+process display viewing
