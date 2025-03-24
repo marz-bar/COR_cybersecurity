@@ -252,3 +252,98 @@ All processes are started by a single process called Systemd(old name is called 
 TOP 
 PS -e (shows all process)
 process display viewing
+
+
+Day 16 - 2025-03-24
+--------------------------
+2001 0010 0000 0000 0001
+0000 0000 0000 0000 0000
+3238 0011 0010 0011 1000
+DFE1 1101 1111 1110 0001
+0063 0000 0000 0110 0011
+FEFB 1111 1110 1111 1011
+
+238.129.32.254 = 11101010.10000001.00100000.11111110
+126.55.0.240 = 01111110.00111001.00000000.11110000
+20.248.252.253 = 00010100.11111000.11111100.11111101
+130.35.168.128 = 10000010.0101
+
+11000000.10011001.00100010.00000101 = 192.153.34.5
+
+128  64   32   16    8    4    2    1
+    192  224  240  248  252  254  255
+
+A = 10
+B = 11
+C = 12
+D = 13
+E = 14
+F = 15
+
+OSI Model
+- Made up of 7 layers
+
+-First layer is Physical
+--Wire-- 
+(Copper Wire) Twisted pair cable, Coaxial cable 
+(Glass Wire) Fibre Optic 
+--Wireless--
+Antenna
+-Uses bits
+
+
+-Second layer is Data Link
+NIC (Network Interface Card) - Takes data and places into a 
+Frame.
+MAC - Media Access Control
+Token
+Chaos Theory - Probability - Ethernet
+Rule for sharing the media
+
+Bridge - a device that uses wires
+
+AP(Access Point) - Device that has an antenna. 
+
+Network card connects to the Bridge
+
+Switch - A bridge on steroids
+
+Physical Address associated with a network card
+
+-Third layer is Network
+Logical address
+Protocol Rule - IPv4,IPv6
+Information at this layer is"Packet" 
+Router that routes packet
+The router will forward a packet. 
+
+-Fourth layer is Transport
+Reliability layer - TCP IP UDP
+TCP - Segment - loves flow control, sequencing, Hand Shake
+UDP - Datagram - 
+
+
+
+-Five layer is Session
+Start, maintain, stop
+
+
+-Sixth layer is Presentation
+Data format translation - ASCII or Unicode(UTF) 
+Encryption/Decryption
+Compression
+
+
+-Seventh layer is Application
+Port Number:
+HTTP - 80 
+HTTPS - 443
+FTP - 20, 21
+SMTP - 25
+DNS - 53
+DHCP - 67,68
+SSH - 22
+
+Please Do Not Throw Sausage Pizza Away
+-      -  -   -     -       -     -
+Physical, Data Link, Network, Transport, Session, Presentation, Application
