@@ -347,3 +347,51 @@ SSH - 22
 Please Do Not Throw Sausage Pizza Away
 -      -  -   -     -       -     -
 Physical, Data Link, Network, Transport, Session, Presentation, Application
+
+
+Day 17 - 2025-03-25
+--------------------------
+Router - NAT - Network Address Translation
+
+Private Address - A: 10.x.x.x are for home network and don't show up in IPv4 "Internet"
+Private Address - B: 172.16.x.x - 172.31.x.x
+C: 192.168.x.x / 192.168.0.1 - 192.168.255.254
+
+IPv4 uses 8 bits called Octets.
+IPv6 uses 16 bit 8 blocks called Quartets.
+
+Configure Network Interface:
+Manual configuration
+Dynamic configuration - DHCP
+
+**DHCP**
+Static 192.168.8.10
+There are times when you'd prefer to manually configure the IP address. See below
+email -->192.168.8.1
+file --> 192.168.8.2
+dbase --> 192.168.8.3
+printer --> 192.168.8.4
+DHCP
+DNS
+
+**DHCP Server**
+Ip Addresses
+Subnet Mask ???
+Default Gateway - Router, Firewall, NAT
+DHCP Server
+DNS Server
+
+Host - Anything network related
+Client - devices lease IP config info from DHCP server
+Device - a device that 
+
+D.O.R.A. - Discover, Offer, Request, Acknowledge
+
+Windows - ipconfig /release - releases all information given by the DHCP server
+        - ipconfig /renew
+
+Linux - dhclient -r
+      - dhclient 
+
+Domain Name Space - retrieve numeric values corresponding to computer hostnames.
+Below the root '.' is the TLD (Top Level Domain).
