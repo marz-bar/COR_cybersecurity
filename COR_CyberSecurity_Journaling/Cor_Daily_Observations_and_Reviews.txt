@@ -432,3 +432,17 @@ ARP (Address Resolution Protocol) - IP Address to the MAC Address
 MAC Address - 48 bit - uses 32 bits, loves hex
 IPv4 - 32 bit
 IPv6 - 128 bit
+
+tcpdump - Looks at and collects/capturings packets(Network) or frames(Data Link) or segments of datagrams (Transport) Layer and generates a file. 
+
+System and & System Administration
+systemctl - command that controls systemd system and services
+systemctl status (name.service) - checks the status of a service
+systemctl start  (name.service) - starts a service
+systemctl stop - stops a service
+systemctl restart - restarts a service
+systemctl reload - refreshs a service
+systemctl enable - automatically starts on bootup
+
+Installed and used apache2 server on Ubuntu server
+Two web services - apache2 and nginxd
