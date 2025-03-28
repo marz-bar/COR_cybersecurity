@@ -446,3 +446,58 @@ systemctl enable - automatically starts on bootup
 
 Installed and used apache2 server on Ubuntu server
 Two web services - apache2 and nginxd
+
+Day 20 - 2025-03-28
+--------------------------
+Understand the following:
+Hex char symbol conversion to binary (top or bottom)
+Hex   4 bit
+----  -----
+0     0000
+1     0001
+2     0010
+3     0011
+4
+5
+6
+7
+8
+9
+A
+B
+C
+D
+E     1101
+F     1111
+
+Whats another name for a daemon? process or service
+Most services end with d... except apache
+What can you tell me about systemd? PID starts with 1. First service that starts up.
+Service types: Unit and Target
+How to enable a service? systemctl enable servicename
+How to start firewalld? systemctl start firewalld
+
+Start, Stop, Status, Enable, Restart = start and stop, Reload = start
+
+Firewall - filter - Allows certain traffic to come in or go out. 
+You can filter on IP addresses (Network Layer), tcp/udp (Transport layer), port number (Application layer) - an access control list
+
+Services running in a soho(small office/home office)
+-----------------------------------------------------------
+Routing, firewall, DHCP, DNS, NAT 
+PfSense is a software for setting up firewall.
+
+3 types of Linux firewalls:
+Netfilter - Linux firewall core - very complex
+IPTables - firewall app that is pre-installed on most Linux distros
+         -- app tool builds upon Netfilter
+Uncomplicated Firewall (UFW) - provides user-friendly framework for managing Netfilter
+--GUI
+
+firewalld - front-end controller for IPTables
+
+4 main components of IAM - Make a claim, prove the claim, permissions, accounting
+SSH - port 22 - Public and Private key pair work in tandem. Give out the public key and keep the private key stored.
+
+nc/ncat - shows open ports but not details, if the port on the other side is also listening then you can send commands
+nmap - shows details on port such as Port, State and Service
